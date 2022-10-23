@@ -1,0 +1,6 @@
+
+
+host: localhost
+become: true
+tasks:
+	-name: new
