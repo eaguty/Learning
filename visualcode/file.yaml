@@ -1,0 +1,9 @@
+
+
+host: localhost
+become: true
+tasks:
+	-name: new
+	-dnf:
+		name:tree
+		state:latest
